@@ -1,0 +1,107 @@
+{
+    "mockupData": [{
+        "AccountID": "cweu4xy733z06mqv96",
+        "Company_Name": "Wal - Mart Stores, Inc",
+        "Assets": ["gme-wal1", "gme-wal2"]
+    }, {
+        "AccountID": "3tvjnjzud1jz2xy6ug",
+        "Company_Name": "Volkswagen Automotive",
+        "Assets": ["gme-vol1", "gme-aut2"]
+    }, {
+        "AccountID": "ht019dupmtb4jinzpo",
+        "Company_Name": "Vitol Commodities",
+        "Assets": ["gme-vit1", "gme-com2"]
+    }, {
+        "AccountID": "l2fd73rbpc48d1hvua",
+        "Company_Name": "Verizon Telecommunications",
+        "Assets": ["gme-ver1", "gme-tel2"]
+    }, {
+        "AccountID": "2iygtyj2do2pi8e4dv",
+        "Company_Name": "Valero",
+        "Assets": ["gme-vale1", "gme-valoil2"]
+    }, {
+        "AccountID": "1ojav89f9qka85vpwb",
+        "Company_Name": "United Health Health care",
+        "Assets": ["gme-usahc1", "gme-uhhc2"]
+    }, {
+        "AccountID": "y9ikfaj2qgf18d0vsw",
+        "Company_Name": "Trafigura Commodities",
+        "Assets": ["gme-traf1", "gme-trafcom2"]
+    }, {
+        "AccountID": "nxhpt5unxsjedui5sk",
+        "Company_Name": "Toyota Automotive",
+        "Assets": ["gme-toy1", "gme-oyota2"]
+    }, {
+        "AccountID": "hqu18f8wy43oc5kfde",
+        "Company_Name": "Total",
+        "Assets": ["gme-total1", "gme-tot2"]
+    }, {
+        "AccountID": "tsc9aures3yjpy2nrr",
+        "Company_Name": "Tata Group Conglomerate",
+        "Assets": ["gme-tata1", "gme-grcon2"]
+    }, {
+        "AccountID": "paoxb086omzi1uu5zr",
+        "Company_Name": "State Grid Electric utility",
+        "Assets": ["gme-sgeu1", "gme-elecs2"]
+    }, {
+        "AccountID": "7u2fhcatofgqjzv2tf",
+        "Company_Name": "Sinopec Group",
+        "Assets": ["gme-sin1", "gme-sinoil2"]
+    }, {
+        "AccountID": "hbg285h3nk206zmdqb",
+        "Company_Name": "Saudi Aramco",
+        "Assets": ["gme-sau1", "gme-aram2"]
+    }, {
+        "AccountID": "xyg1n25grvl74f69l6",
+        "Company_Name": "Samsung Conglomerate",
+        "Assets": ["gme-sam1", "gme-sacomg2"]
+    }, {
+        "AccountID": "aaoexfcqln8peec4dv",
+        "Company_Name": "Royal Dutch Shell",
+        "Assets": ["gme-royal1", "gme-forthequeen"]
+    }, {
+        "AccountID": "rubvrmy2ucrvh3elrj",
+        "Company_Name": "Phillips 66",
+        "Assets": ["gme-phil1", "gme-ips2"]
+    }, {
+        "AccountID": "5gmxscwazuokverzbd",
+        "Company_Name": "Petrobras",
+        "Assets": ["gme-pedro1", "gme-petro2"]
+    }, {
+        "AccountID": "nsx4y558obp62dwn47",
+        "Company_Name": "PDVSA",
+        "Assets": ["gme-pdvsa1", "gme-pgas"]
+    }, {
+        "AccountID": "80o7d5p4wrx1ueygmx",
+        "Company_Name": "Microsoft Conglomerate",
+        "Assets": ["gme-microsoft1", "gme-evil2"]
+    }, {
+        "AccountID": "1v14j9i5w8sy4iipuv",
+        "Company_Name": "McKesson Pharmaceuticals",
+        "Assets": ["gme-mckesson1", "gme-mckeuticals2"]
+    }, {
+        "AccountID": "92ac8fl1dk1nh5v408",
+        "Company_Name": "Lukoil",
+        "Assets": ["gme-luko1", "gme-loil2"]
+    }, {
+        "AccountID": "pn3w8dxqrzytlmanhe",
+        "Company_Name": "Kuwait Petroleum Corporation",
+        "Assets": ["gme-kuwait1", "gme-war2"]
+    }, {
+        "AccountID": "35mtlyc6bnbxhuav1d",
+        "Company_Name": "Koch Industries Conglomerate",
+        "Assets": ["gme-koch1", "gme-kindus2"]
+    }, {
+        "AccountID": "n4gu863njqnndvmk3d",
+        "Company_Name": "Japan Post Conglomerate",
+        "Assets": ["gme-jap1", "gme-konichiwa2"]
+    }, {
+        "AccountID": "gkrllbxd56r9gi4q7t",
+        "Company_Name": "Industrial and Commercial Bank of China Financial services",
+        "Assets": ["gme-china1", "gme-LongLiveTsungLee2"]
+    }, {
+        "AccountID": "qgb1gudy460seqgzo3",
+        "Company_Name": "Honda Automotive",
+        "Assets": ["gme-honhon1", "gme-autohon2"]
+    }]
+}

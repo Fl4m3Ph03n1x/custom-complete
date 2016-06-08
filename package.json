@@ -1,0 +1,11 @@
+{
+  "name": "material-complete",
+  "version": "1.1.0",
+  "description": "Small auto-complete form example using Angular Material.",
+  "main": "server.js",
+  "repository": "",
+  "author": "Pedro Miguel P. S. Martins <palmelapedro@gmail.com>",
+  "dependencies": {
+    "express": "~3.2.4",
+  }
+}

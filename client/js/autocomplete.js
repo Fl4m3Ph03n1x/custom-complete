@@ -1,7 +1,7 @@
 /*global angular*/
 
 "use strict";
-angular.module('MyApp', ['ngMaterial', 'ngMessages', 'material.svgAssetsCache', 'ngMdIcons']).controller('DemoCtrl', DemoCtrl);
+angular.module('MyApp', ['ngMaterial', 'material.svgAssetsCache', 'ngMdIcons']).controller('DemoCtrl', DemoCtrl);
 
 function DemoCtrl($q, $log, $http) {
 
@@ -10,6 +10,7 @@ function DemoCtrl($q, $log, $http) {
     this.querySearch = function(query) {
         let serverUrl = '//custom-material-autocomplete-fl4m3ph03n1x.c9users.io/getClients';
         let deferred = $q.defer();
+        
         $http({
             method: 'GET',
             url: serverUrl,
@@ -21,6 +22,7 @@ function DemoCtrl($q, $log, $http) {
             deferred.resolve(response.data);
         }, function errorCallback(response) {
             $log.error(response);
+            deferred.reject(response);
         });
 
         return deferred.promise;
@@ -28,9 +30,9 @@ function DemoCtrl($q, $log, $http) {
 
     this.searchTextChange = function(text) {
         $log.info('Text changed to ' + text);
-    }
+    };
 
     this.selectedItemChange = function(item) {
         $log.info('Item changed to ' + JSON.stringify(item));
-    }
+    };
 }

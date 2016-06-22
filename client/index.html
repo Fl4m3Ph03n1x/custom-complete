@@ -2,6 +2,11 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Custom-Complete</title>
+
+    <!--CSS files-->
+    <link rel="stylesheet" href="../node_modules/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body ng-app="MyApp" ng-cloak>
@@ -11,44 +16,34 @@
             <form ng-submit="$event.preventDefault()">
 
                 <md-autocomplete md-selected-item="ctrl.selectedItem" md-search-text-change="ctrl.searchTextChange(ctrl.searchText)" md-search-text="ctrl.searchText" md-selected-item-change="ctrl.selectedItemChange(item)" md-items="item in ctrl.querySearch(ctrl.searchText)"
-                md-item-text="item.Company_Name" md-min-length="0" placeholder="Write client Info" md-menu-class="autocomplete-custom-template">
+                    md-item-text="item.Company_Name" md-min-length="0" placeholder="Write client Info" md-menu-class="autocomplete-custom-template">
                     <md-item-template>
 
-                        <span class="item-title">
-                            <strong>Company name:</strong> {{item.Company_Name}}
-                        </span>
-                        <strong>Client Ids:</strong>
-                        <span ng-repeat="clientId in item.Assets">
-                            <span class="item-metadata">
-                            
-                                <span class="item-metastat">
-                                    &emsp;<ng-md-icon icon="subdirectory_arrow_right" style="fill: gray" size="24"></ng-md-icon>
-                                    {{clientId}}
-                                </span>
-                        </span>
-                        </span>
+                        <div class="item-title">
+                            <b>Company name:</b> {{item.Company_Name}}
+                        </div>
 
+                        <div class="item-metadata">
+                            <b>Client Ids:</b>
+                            <div ng-repeat="clientId in item.Assets">
+                                <span class="item-metastat">
+                                    &emsp;<ng-md-icon icon="subdirectory_arrow_right" style="fill: gray" size="24"></ng-md-icon>{{clientId}}
+                                </span>
+                            </div>
+                        </div>
                     </md-item-template>
                 </md-autocomplete>
             </form>
         </md-content>
     </div>
 
-    <!--CSS files-->
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc4/angular-material.min.css">
-    <link rel="stylesheet" href="https://material.angularjs.org/1.1.0-rc4/docs.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
-    <link rel="stylesheet" href="css/style.css">
-
     <!-- Angular Material requires Angular.js Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-messages.min.js"></script>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="../node_modules/angular-aria/angular-aria.min.js"></script>
+    <script src="../node_modules/angular-animate/angular-animate.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-114/svg-assets-cache.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc4/angular-material.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.7.0/angular-material-icons.min.js"></script>
+    <script src="../node_modules/angular-material/angular-material.min.js"></script>
+    <script src="../node_modules/angular-material-icons/angular-material-icons.min.js"></script>
 
     <!-- Your application bootstrap  -->
     <script type="text/javascript" src="js/autocomplete.js"></script>

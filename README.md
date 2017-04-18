@@ -7,6 +7,8 @@
                                                                 | |                   
                                                                 |_|                   
 
+# Description
+
 Custom-complete uses [NodeJS](https://nodejs.org/en/), [AngularJS](https://angularjs.org/) and [Angular Material](https://material.angularjs.org/latest/). 
 This project is a custom auto-complete form. Each time the user types information, the form sends a GET request to the NodeJS server, which responds with a list of alternativles for the form to show. This form caches results as well and was created based on the (non-working) custom example present in: 
 
@@ -20,5 +22,14 @@ For the icons I used the following documentation, whihch I highly recommend:
 
 For more information see the oficial documentation.
 
-Notes: To run the exmaple, make sure the server is running first !
+# Install
 
+Download the project, run `npm install`. You should be ready to go.
+
+# Usage
+
+Launch the server and open `index.html`. Enjoy!
+
+# License
+
+This example is under the [MIT License](https://github.com/angular/angular.js/blob/master/LICENSE).

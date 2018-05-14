@@ -13,7 +13,7 @@
     "angular-mocks": "^1.5.7",
     "angular-route": "^1.5.7",
     "angular-sanitize": "^1.5.7",
-    "express": "^3.2.6"
+    "express": "^4.0.0"
   },
   "devDependencies": {},
   "scripts": {
